@@ -24,7 +24,7 @@ import com.blogpessoal.blogpessoal.model.postagem;
 
 @RestController
 @RequestMapping("/postagens")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class PostagemController {
 	
 	@Autowired

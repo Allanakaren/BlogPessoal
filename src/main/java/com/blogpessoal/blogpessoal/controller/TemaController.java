@@ -26,7 +26,7 @@ import com.blogpessoal.blogpessoal.Repository.TemaRepository;
 
 @RestController
 @RequestMapping("/temas")
-@CrossOrigin(origins = "", allowedHeaders = "")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class TemaController {
 
 	@Autowired
